@@ -660,6 +660,10 @@ input[type=button] {
         width: 45%;
     }
     
+    .map figure {
+        padding-bottom: 45.5%;
+    }
+    
     .contact-section .content-wrapper h2 {
         width: 80%;
     }
@@ -763,6 +767,9 @@ input[type=button] {
         font-size: 1.875em;
     }
  /*=================================================================== About Page ======================================================================*/
+    .map figure {
+        padding-bottom: 37%;
+    }
     
     .mission h2,
     .contact-section .content-wrapper h2{

@@ -103,6 +103,8 @@ body {
 ul,
 ol {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 a{
@@ -114,6 +116,7 @@ h2{
     font-family: 'Poppins', sans-serif;
     font-size: 1.875em;
     font-weight: 500;
+    margin: 0;
 }
 
 h3,
@@ -218,14 +221,8 @@ footer .content-wrapper {
     margin: 50px 0;
 }
 
-.footer-content {
-}
-
 footer .contact {
     margin-bottom: 50px;
-}
-
-footer .social {
 }
 
 footer .social-icons {
@@ -346,9 +343,6 @@ input[type=button] {
     font-size: 3.75em;
     margin-bottom: 40px;
 }
-.fontawesome-icon {}
-
-.features-item-description {}
 
 /* Reviews */
 
@@ -376,8 +370,6 @@ input[type=button] {
     flex-flow: row wrap;
     background-color: #527158;
 }
-
-.mission-content {}
 
 .map figure {
     width: 100%;
@@ -614,6 +606,10 @@ input[type=button] {
         width: 62%;
     }
     
+    .features i {
+        margin-bottom: 30px;
+    }
+    
     /* Reviews */
     .reviews article {
         display: flex;
@@ -790,7 +786,7 @@ input[type=button] {
     }
  /*=================================================================== About Page ======================================================================*/
     .map figure {
-        padding-bottom: 37%;
+        padding-bottom: 37.5%;
     }
     
     .mission h2,

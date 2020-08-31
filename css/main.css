@@ -366,7 +366,21 @@ input[type=button] {
 
 .mission-content {}
 
-.map {}
+.map figure {
+    width: 100%;
+    height: 0;
+    padding-bottom: 125%;
+    overflow: hidden;
+    position: relative;
+}
+
+.map iframe{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
 
 .contact-section {
     display: flex;
@@ -598,7 +612,7 @@ input[type=button] {
     }
     
     .reviews article figure,
-    .reviews artivle div {
+    .reviews article div {
         width: 49%;
     }
     

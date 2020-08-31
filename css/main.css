@@ -235,10 +235,19 @@ footer .social-icons {
 }
 
 footer .social-icons p {
+    background-color: #527158;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
     display: flex;
     justify-content:center;
     align-items:center;
 }
+
+footer .social-icons p i {
+    font-size: 1.3125em;
+}
+
 footer .copyright {
     margin: 20px 0;
 }
@@ -647,6 +656,15 @@ input[type=button] {
         margin-bottom: 40px;
     }
     
+    footer p {
+        line-height: 1.285;
+    }
+    
+    footer .social-icons {
+        width: 12.5em;
+        justify-content: space-between;
+    }
+    
     footer .copyright {
         width: 100%;
     }
@@ -732,7 +750,7 @@ input[type=button] {
     /* Hero */
     .hero-area h1 {
         font-size: 3.75em;
-        width: 60%;
+        width: 80%;
     }
     
     /* Aside */
